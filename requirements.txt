@@ -1,0 +1,7 @@
+#dependencias para produção Necessarios nessas versões
+loguru==0.7.2
+pyttsx3==2.91
+
+
+
+
