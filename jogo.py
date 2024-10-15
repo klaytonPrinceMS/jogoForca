@@ -193,14 +193,6 @@ def pegaLetra(palpitesFeitos):
     if (len(palpite) != 1) or (not 'A' <= palpite <= 'Z'):
         print('\n[ ! ] Insira apenas uma letra\n')
 
-'''
-cras
-sem internet
-'''
-
-
-
-
         palpitesFeitos, palpite = pegaLetra(palpitesFeitos=palpitesFeitos)
     elif palpite in palpitesFeitos:
         print('\n[ ! ] Você já usou este palpite insira outra letra\n')
