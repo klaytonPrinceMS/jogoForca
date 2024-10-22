@@ -13,7 +13,7 @@
 
 ## Descrição simplificada do projeto: xxxxx 
 1. Funcionamento: 
-   1.      colocar arquivo no pc cliente jonto com o arquivo palavras.txt e clicar em executar
+   1.      colocar arquivo no pc cliente junto com o arquivo palavras.txt e clicar em executar
 
 
 ## Distintivos:
