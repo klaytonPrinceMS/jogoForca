@@ -113,10 +113,20 @@ class JogoForca:
         print(f'Letras Acertadas    :{self.get_letrasAcerto()}')
         print(f'Letras Tentadas     :{self.get_letrasTentativa()}')
         print(f'Letras Erradas      :{self.get_letrasErrada()}')
+    def inicializar_tudo(self):
+        self.letraTentativas = []
+        self.letraAcertos = []
+        self.letraErrada = []
+        self.palpites = 0
+        self.palavraSorteada = self.get_palavra_no_arquivo().upper()
+        self.palavraOculta = self.set_palavra_com_underscore()
+        self.tentativas = len(self.palavraSorteada) + 1
     def jogar_novamente(self):
         opcao = input('Digite S para jogar novamente: ')
         if opcao.upper() == 'S':
-            jogarForca()
+            self.inicializar_tudo()
+            self.jogarForca()
+
         else:
             exit()
     def jogarForca(self):
