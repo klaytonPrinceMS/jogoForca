@@ -7,13 +7,13 @@
 *Analista de Sistema Responsavel: PRINCE, K.B Matricula 010698*
 
 
-## Nome do projeto Principal:relogioDigital
+## Nome do projeto Principal:jogoForca
 1. -> jogo.exe
 
 
 ## Descrição simplificada do projeto: xxxxx 
 1. Funcionamento: 
-   1.      colocar arquivo no pc cliente e clicar em executar
+   1.      colocar arquivo no pc cliente jonto com o arquivo palavras.txt e clicar em executar
 
 
 ## Distintivos:
@@ -40,7 +40,7 @@ Para informações e colaborações, entrar em contato com
 1. -> Analista de Sistema: PRINCE, K.B <klayton.prince.ms@gmail.com>
 
 ## Licença:
-1. Software Próprietario de uso Restrito
+1. Software Licença CC BY-NC-SA 2.5 BR
 
 ## Status do Projeto:
 1. Encerrado
