@@ -120,7 +120,7 @@ class JogoForca:
         self.palpites = 0
         self.palavraSorteada = self.get_palavra_no_arquivo().upper()
         self.palavraOculta = self.set_palavra_com_underscore()
-        self.tentativas = len(self.palavraSorteada) + 1
+        self.tentativas = len(self.palavraSorteada) + 4
     def jogar_novamente(self):
         opcao = input('Digite S para jogar novamente: ')
         if opcao.upper() == 'S':
